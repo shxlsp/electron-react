@@ -10,6 +10,8 @@
     "webpackBuildReact": "webpack --config='./webpack/webpack.config.react.js' --env=mode=production",
     "webpackDevElectron": "webpack --config='./webpack/webpack.config.electron.js' --env=mode=development",
     "webpackBuildElectron": "webpack --config='./webpack/webpack.config.electron.js' --env=mode=production",
+    "prepare": "husky install",
+    "lint": "echo \"Now will run eslint, please waiting moment... \n\" && eslint --ext .ts --ext .tsx src/",
     "ts": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -40,6 +42,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "html-webpack-plugin": "^5.5.3",
+    "husky": "^8.0.3",
     "less": "^4.1.3",
     "less-loader": "^11.1.3",
     "prettier": "^2.3.2",
