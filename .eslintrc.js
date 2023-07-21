@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['alloy', 'alloy/react', 'alloy/typescript', '@jd/ei', '@jd/ei/typescript'],
+  extends: ['alloy', 'alloy/react', 'alloy/typescript'],
   parser: '@typescript-eslint/parser',
   plugins: ['prettier', 'react-hooks'],
   root: true,
